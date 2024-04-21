@@ -94,3 +94,16 @@ img {
     font-size: 30px; }
   #showcase-inner h1 {
     font-size: 40px; } }
+
+    .carousel-item {
+      width: 100vw; /* Set the width of each ad */
+      height: 20vh; /* Set the height of each ad */
+      overflow: hidden; /* Hide overflow content */
+      display: inline-block; /* Make the carousel items appear horizontally */
+    }
+    
+    .ad-img {
+      width: 100%;
+      height: auto;
+    }
+    

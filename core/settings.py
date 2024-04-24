@@ -91,12 +91,8 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Africas',
-        'USER': 'kwepo',
-        'PASSWORD': 'Access',
-        'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
-        'PORT': '5432',        # Or the port your PostgreSQL server is listening on
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -154,3 +150,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+AFRICASTALKING_API_KEY=''
